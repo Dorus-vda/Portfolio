@@ -1,0 +1,139 @@
+body {
+  background-color: white;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-style: normal; font-variant: normal;
+  color: black;
+  margin: 0%;
+  padding-bottom: 0px;
+
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3562C8;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(89, 89, 89, 0.42);
+}
+
+#blue-bg{
+  background-color: #3562C8;
+  padding-right: 20px;
+  color: white;
+}
+
+.active {
+  background-color: #001C5C;
+}
+
+.content {
+  padding-left: 0px;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.grid-container-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+  background-color: white;
+}
+
+.grid-container-block {
+  display: block;
+  grid-template-columns: 3 3 3;
+  grid-gap: 0px;
+  background-color: white;
+}
+
+.grid-container-grid > div {
+  background-color: white;
+  padding: 20px 0;
+}
+
+.grid-container-block > div {
+  background-color: white;
+  padding: 20px 0;
+}
+
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item2 {
+  margin-left: 2%;
+  font-size: 20px;
+  text-align: left;
+  margin-right: 2%;
+}
+
+.item3{
+}
+
+.item4{
+  padding-left: 10%;
+  font-size: 20px;
+}
+
+.item5 {
+}
+
+.item6{
+  margin-left: 2%;
+  font-size: 20px;
+  margin-right: 2%;
+}
+
+.badge {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.textcenter{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.img {
+  height: 350px;
+  padding-left: 40px;
+}
+
+.video{
+  height: 47%;
+  width: 47%;
+  margin-left: 3;
+}
+
+.indeximg{
+  margin-top: 4%;
+}
+
+.footer {
+}
